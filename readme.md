@@ -54,12 +54,14 @@ yarn build
 ### 6. Executar o Projeto com Docker
 
 ```sh
-docker build -t integraPACS .
+docker-compose -f docker-compose.prod.yml up
 ```
+
+Se você fizer alterações no ambiente de desenvolvimento que deseja refletir no contêiner de produção, você pode reconstruir a imagem de produção adicionando a flag --build ao comando de inicialização. Por exemplo:
 
 E iniciar o container
 
 ```sh
-docker run -d -p 4000:4000 --env-file .env integraPACS
+docker-compose -f docker-compose.prod.yml up --build
 
 ```
