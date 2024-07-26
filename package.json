@@ -1,0 +1,22 @@
+{
+  "name": "integrapacs",
+  "version": "1.0.0",
+  "description": "Integração Web entre PACS da Mezzow com sistema FeegowClinic, associado às Feiras de Saúde informatizadas",
+  "main": "index.js",
+  "scripts": {
+  "dev": "ts-node-dev --poll ./src/index.ts",
+  "build": "rimraf ./dist && tsc",
+  "start": "npm run build && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
