@@ -1,4 +1,4 @@
-# Projeto de Integração PACS Mezzow e Feegow Clinic
+# Integração PACS Mezzow e Feegow Clinic
 
 ## Descrição do Projeto
 
