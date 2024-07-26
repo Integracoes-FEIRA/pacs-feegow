@@ -20,7 +20,7 @@ Antes de iniciar, você precisará ter o Docker instalado em sua máquina. Se ai
 
 Clone este repositório em sua máquina local usando o seguinte comando:
 ```sh
-git clone 
+git clone https://github.com/fjsprojetos-acelera/pacs-feegow.git
 ```
 
 ### 2. Navegar até o Diretório do Projeto
