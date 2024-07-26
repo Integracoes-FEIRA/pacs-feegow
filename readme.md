@@ -26,7 +26,7 @@ git clone https://github.com/fjsprojetos-acelera/pacs-feegow.git
 ### 2. Navegar até o Diretório do Projeto
 
 ```sh
-cd projeto-integracao-pacs-feegow
+cd pacs-feegow
 ```
 ### 3.  Instalar Dependências
 
